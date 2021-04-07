@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,700");
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: rgb(168, 168, 168);
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+header li{
+    margin: 30px 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(168, 168, 168);
+}
+main{
+}
+header{
+    position: fixed;
+}
+
+#home{
+    text-align: center;
+    padding: 20vw 30vw;
+}
+#judul{
+    text-align: center;
+    padding: 10vw 30vw;
+}
+#gambar img{
+    width: 95vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+#text-wrapper{
+    text-align: center;
+    margin: 5vw 2.5vw;
+}
+#home h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+#judul h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#work{
+    margin-bottom: 10vh;
+}
+
+#work h1{
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+#work a{
+    text-decoration: none;
+    color: white;
+}
+
+.badge{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 10px 10px;
+}
+
+.center{
+    margin: 5vw 45vw;
+}
+
+.card-work{
+    float: left;
+    width: 45vw;
+    margin-left: 3vw;
+    margin-bottom: 5vh;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+}
+
+#kontak{
+    display: flex;
+    margin-left: 10vw;
+    margin-top: 15vw;
+}
+#kontak a{
+    text-decoration: none;
+    color: black;
+}
+.card-work:hover{
+    background-color: rgb(119, 119, 119);
+}
+.card-work img{
+    width: 100%;
+}
