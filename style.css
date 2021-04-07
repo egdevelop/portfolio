@@ -31,8 +31,6 @@ header a{
     text-decoration: none;
     color: rgb(168, 168, 168);
 }
-main{
-}
 header{
     position: fixed;
 }
@@ -111,4 +109,56 @@ header{
 }
 .card-work img{
     width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    #kontak{
+        display: flex;
+        margin-left: 25px;
+        margin-top: 230px;
+    }
+    #home{
+        text-align: center;
+        padding: 190px 50px;
+    }
+    #home h1{
+        font-weight: 400;
+        font-size: 40px;
+    }
+    #home p{
+        font-size: 12px;
+    }
+    #judul h1{
+        font-weight: 400;
+        font-size: 20px;
+    }
+    #judul p{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    #work{
+        margin-bottom: 100px;
+    }
+    
+    #work p{
+        font-size: 12px;
+        
+    }
+    #work a{
+        text-decoration: none;
+        color: white;
+    }
+    .card-work{
+        float: left;
+        width: 95vw;
+        margin: 5px 5px;
+        text-align: center;
+        background-color: rgb(66, 66, 66);
+    }
+    #judul{
+        padding: 100px 90px;
+    }
+    #text-wrapper p{
+        font-size: 12px;
+    }
 }
