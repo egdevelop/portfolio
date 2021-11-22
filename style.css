@@ -74,6 +74,10 @@ header{
     text-decoration: none;
     color: white;
 }
+#prestasi a{
+    text-decoration: none;
+    color: white;
+}
 
 .badge{
     padding: 5px 10px;
@@ -89,6 +93,7 @@ header{
 .card-work{
     float: left;
     width: 45vw;
+    height: 30vw;
     margin-left: 3vw;
     margin-bottom: 5vh;
     text-align: center;
@@ -108,7 +113,8 @@ header{
     background-color: rgb(119, 119, 119);
 }
 .card-work img{
-    width: 100%;
+    width: 45vw;
+    height: 28vw;
 }
 
 @media only screen and (max-width: 600px) {
