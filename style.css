@@ -1,175 +1,173 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,400,500,700");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: black;
-    color: rgb(168, 168, 168);
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: rgb(168, 168, 168);
 }
 
-header{
-    display: flex;
-    width: 100vw;
-    height: 10vh;
-    background-color: black;
+header {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  background-color: black;
 }
-header ul{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
+header ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
 }
-header li{
-    margin: 30px 20px;
-}
-
-header a{
-    text-decoration: none;
-    color: rgb(168, 168, 168);
-}
-header{
-    position: fixed;
+header li {
+  margin: 30px 20px;
 }
 
-#home{
-    text-align: center;
-    padding: 20vw 30vw;
+header a {
+  text-decoration: none;
+  color: rgb(168, 168, 168);
 }
-#judul{
-    text-align: center;
-    padding: 10vw 30vw;
-}
-#gambar img{
-    width: 95vw;
-    margin-left: 2.5vw;
-    margin-right: 2.5vw;
-}
-#text-wrapper{
-    text-align: center;
-    margin: 5vw 2.5vw;
-}
-#home h1{
-    font-weight: 400;
-    font-size: 50px;
-}
-#judul h1{
-    font-weight: 400;
-    font-size: 40px;
+header {
+  position: fixed;
 }
 
-#work{
-    margin-bottom: 10vh;
+#home {
+  text-align: center;
+  padding: 20vw 30vw;
+}
+#judul {
+  text-align: center;
+  padding: 10vw 30vw;
+}
+#gambar img {
+  width: 95vw;
+  margin-left: 2.5vw;
+  margin-right: 2.5vw;
+}
+#text-wrapper {
+  text-align: center;
+  margin: 5vw 2.5vw;
+}
+#home h1 {
+  font-weight: 400;
+  font-size: 50px;
+}
+#judul h1 {
+  font-weight: 400;
+  font-size: 40px;
 }
 
-#work h1{
-    font-weight: 500;
-    font-size: 20px;
-    
-}
-#work a{
-    text-decoration: none;
-    color: white;
-}
-#prestasi a{
-    text-decoration: none;
-    color: white;
+#work {
+  margin-bottom: 10vh;
 }
 
-.badge{
-    padding: 5px 10px;
-    border-radius: 50%;
-    background-color: white;
-    margin: 10px 10px;
+#work h1 {
+  font-weight: 500;
+  font-size: 20px;
+}
+#work a {
+  text-decoration: none;
+  color: white;
+}
+#prestasi a {
+  text-decoration: none;
+  color: white;
 }
 
-.center{
-    margin: 5vw 45vw;
+.badge {
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px 10px;
 }
 
-.card-work{
-    float: left;
-    width: 45vw;
-    height: 30vw;
-    margin-left: 3vw;
-    margin-bottom: 5vh;
-    text-align: center;
-    background-color: rgb(66, 66, 66);
+.center {
+  margin: 5vw 45vw;
 }
 
-#kontak{
-    display: flex;
-    margin-left: 14vw;
-    margin-top: 15vw;
+.card-work {
+  float: left;
+  width: 45vw;
+  height: 28vw;
+  margin-left: 3vw;
+  margin-bottom: 5vh;
+  text-align: center;
+  background-color: rgb(66, 66, 66);
 }
-#kontak a{
-    text-decoration: none;
-    color: black;
+
+#kontak {
+  display: flex;
+  margin-left: 14vw;
+  margin-top: 15vw;
 }
-.card-work:hover{
-    background-color: rgb(119, 119, 119);
+#kontak a {
+  text-decoration: none;
+  color: black;
 }
-.card-work img{
-    width: 45vw;
-    height: 28vw;
+.card-work:hover {
+  background-color: rgb(119, 119, 119);
+}
+.card-work img {
+  width: 45vw;
+  height: 25vw;
 }
 
 @media only screen and (max-width: 600px) {
-    #kontak{
-        display: flex;
-        margin-left: 25px;
-        margin-top: 230px;
-    }
-    #home{
-        text-align: center;
-        padding: 190px 50px;
-    }
-    #home h1{
-        font-weight: 400;
-        font-size: 40px;
-    }
-    #home p{
-        font-size: 12px;
-    }
-    #judul h1{
-        font-weight: 400;
-        font-size: 20px;
-    }
-    #judul p{
-        font-weight: 400;
-        font-size: 12px;
-    }
-    #work{
-        margin-bottom: 100px;
-    }
-    
-    #work p{
-        font-size: 12px;
-        
-    }
-    #work a{
-        text-decoration: none;
-        color: white;
-    }
-    .card-work{
-        float: left;
-        width: 95vw;
-        height: 73vw;
-        margin: 5px 5px;
-        text-align: center;
-        background-color: rgb(66, 66, 66);
-    }
-    .card-work img{
-        width: 95vw;
-        height: 65vw;
-    }
-    #judul{
-        padding: 100px 90px;
-    }
-    #text-wrapper p{
-        font-size: 12px;
-    }
+  #kontak {
+    display: flex;
+    margin-left: 25px;
+    margin-top: 230px;
+  }
+  #home {
+    text-align: center;
+    padding: 190px 50px;
+  }
+  #home h1 {
+    font-weight: 400;
+    font-size: 40px;
+  }
+  #home p {
+    font-size: 12px;
+  }
+  #judul h1 {
+    font-weight: 400;
+    font-size: 20px;
+  }
+  #judul p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  #work {
+    margin-bottom: 100px;
+  }
+
+  #work p {
+    font-size: 12px;
+  }
+  #work a {
+    text-decoration: none;
+    color: white;
+  }
+  .card-work {
+    float: left;
+    width: 95vw;
+    height: 73vw;
+    margin: 5px 5px;
+    text-align: center;
+    background-color: rgb(66, 66, 66);
+  }
+  .card-work img {
+    width: 95vw;
+    height: 65vw;
+  }
+  #judul {
+    padding: 100px 90px;
+  }
+  #text-wrapper p {
+    font-size: 12px;
+  }
 }
