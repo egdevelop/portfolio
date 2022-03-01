@@ -155,14 +155,14 @@ header {
   .card-work {
     float: left;
     width: 95vw;
-    height: 73vw;
+    height: 63vw;
     margin: 5px 5px;
     text-align: center;
     background-color: rgb(66, 66, 66);
   }
   .card-work img {
     width: 95vw;
-    height: 65vw;
+    height: 55vw;
   }
   #judul {
     padding: 100px 90px;
